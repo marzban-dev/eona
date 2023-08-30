@@ -1,0 +1,47 @@
+/*
+Theme Name: Eona
+Theme URI: https://eona.qodeinteractive.com
+Description:  Fashion Theme
+Author: Mikado Themes
+Author URI: https://qodeinteractive.com
+Text Domain: eona
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-menu, featured-images, flexible-header, post-formats, sticky-post, threaded-comments, translation-ready
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+    background-color: black !important;
+}
+
+section .qodef-parallax-bg-image-holder {
+    background-position: top right !important;
+}
+
+section:nth-child(2) .qodef-parallax-bg-image-holder {
+    background-position: top left !important;
+}
+
+.qodef-header-logo-link,
+.qodef-mobile-header-logo-link {
+    position: absolute !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+}
+
+.qodef-header-logo-link img,
+.qodef-mobile-header-logo-link img {
+    left: unset !important;
+    position: absolute;
+}
+
+#qodef-page-mobile-header-inner {
+    padding: 0 !important;
+}
+
+.qodef-mobile-header-opener {
+    padding-right: 24px !important;
+}
